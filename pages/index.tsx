@@ -15,7 +15,10 @@ import Image from "next/image"
 import TuringIcon from "../public/tlogo.png"
 import { AuthContext } from "../src/context/authContext"
 import { useRouter } from "next/router"
-import { useGetCallsQuery, useUpdateArchiveMutation } from "../src/api/api"
+import {
+  useGetCallsQuery,
+  useUpdateArchiveMutation
+} from "../src/store/services/api"
 import { NodesProps } from "../src/types/type"
 import NoteDetail from "../src/components/NotesDetail"
 import TableContainerF from "../src/components/TableContainer"

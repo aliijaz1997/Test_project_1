@@ -7,7 +7,10 @@ import {
   CircularProgress
 } from "@mui/material"
 import React from "react"
-import { useGetCallByIdQuery, useUpdateNotesMutation } from "../api/api"
+import {
+  useGetCallByIdQuery,
+  useUpdateNotesMutation
+} from "../store/services/api"
 import { AuthContext } from "../context/authContext"
 import { NodesProps } from "../types/type"
 
